@@ -1,0 +1,49 @@
+# EchoSandbox - Requirements
+# Created by: Michael Semera
+
+# Core Dependencies
+psutil>=5.9.0
+pyroute2>=0.7.0
+
+# Optional but recommended
+scapy>=2.5.0
+pyelftools>=0.29
+python-magic>=0.4.27
+
+# Machine Learning (optional)
+scikit-learn>=1.3.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# API and Web Interface
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+aiofiles>=23.2.0
+websockets>=12.0
+
+# Monitoring and Logging
+prometheus-client>=0.18.0
+structlog>=23.2.0
+
+# Report Generation
+jinja2>=3.1.0
+markdown>=3.5.0
+plotly>=5.17.0
+
+# CLI
+click>=8.1.0
+rich>=13.7.0
+colorama>=0.4.6
+
+# Security
+pycryptodome>=3.19.0
+
+# Testing
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.1.0
+
+# Development
+black>=23.11.0
+flake8>=6.1.0
+mypy>=1.7.0
